@@ -21,12 +21,18 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- time
+- http-client
+- warp
+- containers
+- stm
 - aeson
 - text
 - bytestring
 - servant
 - servant-server
 - servant-client
+- transformers
 
 library:
   source-dirs: src
